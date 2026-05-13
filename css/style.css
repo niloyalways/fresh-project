@@ -223,7 +223,7 @@ nav .btn ul li a:hover {
 }
 
 .collection .collection-part .overly p {
-    background: #fff;
+    background: rgba(29, 140, 204, 0.5);
     padding: 9px 90px;
     color: black;
     border-radius: 20px;
@@ -236,8 +236,10 @@ nav .btn ul li a:hover {
 }
 
 .collection .collection-part:hover .overly {
-    background: transparent;
+    /* background: transparent; */
     top: 0;
+    -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 
